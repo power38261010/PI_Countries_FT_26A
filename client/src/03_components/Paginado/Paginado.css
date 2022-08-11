@@ -1,0 +1,39 @@
+.paginadoContainer {
+  display: flex;
+  background-color: transparent ;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+.ul {
+  padding-inline: 10px ;
+  background-color: transparent;
+  width: 70vw;
+  height: 100%;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.numeroPaginado {
+  background: rgb(19,19,20);
+  background: radial-gradient(circle, rgba(19,19,20,1) 0%, rgba(18,18,74,0.8015581232492998) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  margin: 0 2px 0 2px;
+  cursor: pointer;
+  width: 2vw;
+  border-radius: 3px;
+  height: 5vh;
+  color: #ffffff;
+  font-size: 20px;
+  border: black solid 1px;
+}
+
+.numeroPaginado:hover{
+  background-color:green;
+  border: green solid 1px;
+}

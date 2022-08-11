@@ -1,0 +1,44 @@
+.cardContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 2px 1px black ;
+  background: rgb(19,19,20);
+  background: radial-gradient(circle, rgba(19,19,20,1) 0%, rgba(18,18,74,0.8015581232492998) 100%);
+  width: 18vw;
+  height: 17rem;
+  margin: 1px 0 2px 0;
+  display: flex;
+  font-size: large;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  border: black solid 3px;
+}
+
+.infoConteiner {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  height: 70%;
+  width: 90%;
+}
+
+.cardImg {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.content {
+  margin: 1rem 0 0 0;
+}
+
+
+.cardContainer:hover {
+  background-color: green;
+  border: green solid 3px;
+}
